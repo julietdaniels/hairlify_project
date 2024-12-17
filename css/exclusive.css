@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", san-serif;
+  }
+
+  /* head section */
+  .head {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .head .image img {
+    width: 50px;
+    border-radius: 50px ;
+  }
+  .head .hairlify {
+    padding-right: 20px;
+    padding-left: 5px;
+    color: #f75bc3;
+  
+  }
+
+
+  .head .hairlify h1 {
+    color: #ff07bf;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+
+  .hairlify p {
+    color: #6A6666;
+    font-size: 12px;
+    font-weight: 700;
+  }
+ .head nav {
+    padding-top: 20px;
+    padding-left: 100px;
+ }
+  .head nav a {
+    color: #6A6666;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 30px;
+    font-weight:700;
+    padding-right: 10px;
+  }
+
+nav a:hover {
+ color: #ff07bf;
+}
+
+nav #home {
+  color: #ff07bf;
+}
+
+nav #book {
+    border: 5px;
+    width: 50px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #f75bc3;
+  
+}
+
+.first .second {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.second .search {
+  padding-top: 20px;
+}
+
+
+.search input {
+    
+    padding-right: 250px;
+    border-radius: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    color: #6A6666;
+    border-color: none;
+    background-color: rgb(238, 232, 232);
+    font-size: 15px;
+    border: 1px solid #6A6666;
+}
+
+.search i {
+    position: absolute;
+    left: 48%;
+    bottom: 10px;
+    color: #6A6666;
+    font-size: 300;
+}
+
+.second .icon {
+    padding-left: 80px;
+    padding-top: 20px;
+  
+}
+
+.icon a {
+    color: #6A6666;
+    font-size: 28px;
+    padding-left: 40px;
+}
+
+/* filter */
+
+.filter {
+    background-color: #ffffff;
+    margin: 30px;
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+    margin-left: 17%;
+}
+
+.filter #action {
+  margin-left: 500px;
+}
+
+.filter .sort {
+    display: flex;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #1a1515;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+.sort a {
+    text-decoration: none;
+    color: #1A1515;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #f75bc3;
+}
+
+.sort #icon {
+    font-size: 20px;
+    font-weight: 400;
+    color: #1a1515;
+}
+
+/* featured */
+
+.hot h3 {
+  color: #1A1515;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 430px;
+}
+
+/* exclusive featured */
+
+.exclusive {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: #ffffff;
+  padding-top: 40px;
+}
+
+.exclusive .session {
+   padding-bottom: 10px;
+}
+
+.session .second-session {
+  background-color: #ECD3EF;
+  box-shadow: 2px 2px 2px 1px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.second-session .picture {
+  
+  margin-bottom: 20px;
+}
+
+.picture img {
+  width: 360px;
+  height: 300px;
+}
+
+.session #first {
+  padding-bottom: 15px;
+}
+
+.session #connect {
+  padding-bottom: 30px;
+}
+
+.second-session h4 {
+    font-weight: 700;
+    color: #080808;
+    height: 300;
+    padding-bottom: 10px;
+   padding-left: 20px;
+}
+
+
+.second-session .new-container {
+  display: flex;
+  gap: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.new-container h5 {
+  font-size: 17px;
+  padding-left: 20px;
+}
+
+.new-container  h6{
+  text-decoration: line-through;
+  padding-right: 30px;
+  font-size: 15px;
+  color: #5f5555;
+}
+
+.new-container a {
+  color: #5f5555;
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+.session #six {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+#six .new-container {
+  padding-top: 20px;
+}
+
+.session #seven .new-container {
+  padding-top: 25px;
+}
+
+
+/* product */
+
+.product {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color: #ffffff;
+  padding-top: 40px;
+}
+
+.product .asset {
+   padding-bottom: 10px;
+}
+
+.asset .first-product {
+  background-color: #ECD3EF;
+  box-shadow: 2px 2px 2px 1px; 
+  margin-bottom: 10px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding-bottom: 10px;
+}
+
+.first-product .pictures img {
+  width: 400px;
+  height: 400px;
+  border-top-right-radius: 50px;
+}
+
+.first-product .new-product {
+  display: flex;
+  gap: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.first-product h4 {
+  font-weight: 700;
+  color: #080808;
+  height: 300;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+
+
+.new-product h5 {
+  font-size: 17px;
+  padding-left: 20px;
+}
+
+.new-product h6{
+  text-decoration: line-through;
+  padding-right: 40px;
+  font-size: 15px;
+  color: #5f5555;
+}
+
+.new-product a {
+  color: #5f5555;
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+
+
+
+/* footer */
+
+footer {
+    margin-top: 60px;
+    background-color:  #dcd0a8;
+  }
+  
+  footer .help {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+  }
+  
+  .help .order {
+    /* padding-right: 20px; */
+    padding-bottom: 50px;
+  }
+  
+  .help .order .order-1{
+     display: flex;
+  }
+  
+  .order-1 img {
+    width: 50px;
+    border-radius: 50px;
+  }
+  
+  .order-1 h3 {
+    color: #1a1515;
+    font-weight: 700;
+    padding-left: 5px;
+    font-size: 22px;
+  }
+  
+  .order-1 p{
+    color: #1a1515;
+    font-weight: 400;
+    padding-left: 5px;
+    font-size: 11px;
+  }
+  
+  .order h4 {
+    font-weight: 400;
+    color: #1A1515;
+    padding-top: 5px;
+    font-size: 15px;
+    line-height: 1.2;
+    padding-bottom: 10px;
+  }
+  
+  .order .icons {
+    padding-top: 10px;
+  }
+  
+  .order  .icons a {
+    color: #ff07bf;
+    font-size: 25px;
+    background-color: #f7f5f5;
+    border-radius: 50px;
+    padding: 6px;
+  }
+  .order .link-1 h5{
+   font-size: 21px;
+   color: #1A1515;
+   font-weight: 700;
+   padding-bottom: 30px;
+  }
+  
+  .link-1 a{
+    color: #1A1515;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    text-decoration: none;
+  }
+  
+  footer h6 {
+    padding: 50px;
+    padding-left: 400px;
+    font-weight: 400;
+    color: #1A1515;
+    font-size: 21px;
+  }

@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", san-serif;
+  }
+
+  .signup{
+    display: flex;
+    width: 100%;
+
+  }
+
+  .signup .first {
+    width: 50%;
+    background-color: #ffffff;
+    padding-left: 300px;
+    padding-top: 50px;
+  }
+
+  .first h3 {
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+
+  .first h4 {
+    font-weight: 400;
+    font-size: 23px;
+    color: #1a1a1a;
+    padding-bottom: 10px;
+  }
+
+  .register h5 {
+    font-weight: 200;
+    font-size: 18px;
+    color: #1a1a1a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .register input {
+    width: 350px;
+    border-radius: 10px;
+    padding: 7px;
+    padding-left: 10px;
+    border: 1px solid #000000;
+    font-size: 17px;
+    color: #1a1a1a;
+    
+  }
+
+
+  .first button {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight:400;
+    padding: 150px;
+    padding-top: 10px;
+    background-color: #FF07BF;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 2px 1px;
+  }
+
+  .first .art {
+    padding: 5px;
+    padding-bottom: 100px;
+  }
+
+  .art a {
+  text-decoration: none;
+  color: #1a1a1a;
+  padding-left: 230px;
+}
+
+
+.first .line {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  
+  .line hr {
+    width: 30%;
+    border-left: none;
+    border-right: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 0;
+  }
+  
+  .line p{
+     padding-top: 10px;
+     color: #1a1a1a;
+     
+  }
+  
+
+  .first .google {
+    position: relative;
+    padding-top: 40px;
+  }
+
+  .google a {
+   text-decoration: none;
+   color: #1a1a1a;
+   background-color: #ffffff;
+   padding: 10px;
+   padding-left: 100px;
+   padding-right: 100px;
+   border-radius: 10px;
+   border: 1px solid #000000;
+  }
+
+  a:hover  {
+    color: #FF07BF;
+  }
+
+  .google #icon {
+    position: relative;
+    left: 80px;
+    color: #1976D2;
+    font-size: 20px;
+  }
+  
+  .first .side {
+    display: flex;
+    padding-left: 140px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    color: #1a1a1a;
+    font-weight: 20px;
+  }
+
+.side a {
+  text-decoration: none;
+  color: #1a1a1a;
+  padding-left: 5px;
+}
+
+
+
+
+/* second  */
+  .signup .second {
+    background-color: #ECD3EF;
+    width: 50%;
+  }
+
+  .second img {
+    width: 500px;
+    padding-left: 100px;
+    padding-top: 100px;
+  }
+
+  
