@@ -114,3 +114,67 @@
     width: 90%;
     padding-bottom: 10%;
 }
+
+
+/* media query */
+
+
+/* @media screen and (max-width: 400px) {
+    .art #code{
+      font-size: 18px;
+    }
+    .head {
+      font-size: 20px;
+      background: red;
+    }
+  
+    .head #fav {
+      font-size: 25px;
+    }
+  
+    .head p {
+      font-size: 15px;
+    }
+  
+    .recipe .point  {
+      padding: 24px;
+    }
+  
+    .ingredients .unit {
+      font-size: 15px;
+    }
+  
+    .ingredients h5 {
+      font-size: 22px;
+    }
+  
+    .second .real {
+      font-size: 20px;
+      padding-top: 10px;
+    }
+  
+    .second .text {
+      font-size: 13px;
+    }
+  }
+  
+  @media screen and (min-width: 401px) and (max-width: 750px) {
+    .head {
+      background: green;
+      font-size: 38px;
+    }
+  
+    .ingredients .unit {
+      font-size: 18px;
+    }
+  
+    .second .text {
+      font-size: 15px;
+    }
+  }
+  
+  @media screen and (min-width: 750px) {
+    .head {
+      background: purple;
+    }
+  } */
